@@ -1,5 +1,5 @@
 // Convert a string to uppercase
-let string = "hello world";
+let string = "application programming";
 let uppercaseString = string.toUpperCase();
 console.log("Uppercase string:", uppercaseString);
 
@@ -9,11 +9,11 @@ let substring = originalString.substring(10, 13);
 console.log("Substring:", substring);
 
 // Check if a string contains a specific word
-let sentence = "I love programming";
-let wordToCheck = "love";
+let sentence = "Application programming";
+let wordToCheck = "programming";
 let containsWord = sentence.includes(wordToCheck);
 if (containsWord) {
-  console.log("The sentence contains the word \"love\".");
+  console.log("The sentence contains the word \"programming\".");
 } else {
-  console.log("The sentence does not contain the word \"love\".");
+  console.log("The sentence does not contain the word \"programming\".");
 }
